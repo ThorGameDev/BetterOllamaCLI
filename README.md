@@ -11,31 +11,31 @@ See https://github.com/ollama/ollama for more details
 1. Ensure you are inside the project folder
 
 2. Create a virtual environment
-'''
+```
 python -m venv ./venv/
-'''
+```
 
 3. Activate the virtual environment
-'''
+```
 source ./venv/bin/activate
-'''
+```
 
 4. Install all required packages.
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 5. In a different shell, start ollama. (only required if not already running)
-'''
+```
 ollama start
-'''
+```
 or 
-'''
+```
 systemctl start ollama.service
-'''
+```
 
 6. Finally, start the program
-'''
+```
 python ./main.py
-'''
+```
 
